@@ -1,0 +1,10 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+cloudflare:
+  r2:
+    endpoint: https://${ACCOUNT_ID}.r2.cloudflarestorage.com
+    accessKey: ${ACCESS_KEY_ID}
+    secretKey: ${SECRET_ACCESS_KEY}
+    bucket: ${BUCKET_NAME}
